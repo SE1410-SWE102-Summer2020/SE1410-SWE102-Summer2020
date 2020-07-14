@@ -1,0 +1,20 @@
+name: Export prototype
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+
+    - name: Zip prototype
+      run: git archive HEAD -o prototype.zip
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: prototype.zip
