@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <input id="username" type="text" name="username">
+    <input id="password" type="text" name="password">
+    <button onClick="checkLogin()">Submit</button>
+    <script>
+        function checkLogin() {
+            let username = document.getElementById('username').value
+            let password = document.getElementById('password').value
+            console.log('username:', username)
+            console.log('password:', password)
+            if (username === 'admin' && password === '123456') {
+                console.log('Logged in')
+                window.location = './profile.html'
+            }
+        }
+    </script>
+</body>
+
+</html>
