@@ -2,3 +2,4 @@
 nbproject
 *.zip
 tmp
+node_modules

@@ -1,0 +1,12 @@
+{
+  "name": "se1410-swe102-summer2020",
+  "repository": "https://github.com/SE1410-SWE102-Summer2020.github.io/SE1410-SWE102-Summer2020.github.io",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "typescript": "^3.9.7"
+  }
+}
