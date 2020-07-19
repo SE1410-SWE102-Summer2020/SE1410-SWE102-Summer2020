@@ -24,6 +24,7 @@ function login(username, password) {
             // TODO set current logged in user to local storage
             // TODO redirect user
             console.log(`Login successfully with default user account!`);
+            storage.setItem(`swe102.state.loggedin.username`, username);
             return;
         }
         else {
