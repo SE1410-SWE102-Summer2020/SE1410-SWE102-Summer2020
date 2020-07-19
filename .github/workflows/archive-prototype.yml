@@ -12,9 +12,15 @@ jobs:
       with:
         fetch-depth: 1
 
+    - name: Install dependencies
+      run: sudo apt install unzip tree python3
+
     - name: Zip prototype
-      run: git archive HEAD -o prototype.zip
+      run: python3 scripts/create-artifact.py
+
+    - name: Debug directory layout
+      run: tree .
 
     - uses: actions/upload-artifact@v2
       with:
-        path: prototype.zip
+        path: SE1410-prototype-*/*
