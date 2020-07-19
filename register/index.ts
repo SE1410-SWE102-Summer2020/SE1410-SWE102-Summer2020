@@ -60,6 +60,7 @@ registerButton.addEventListener('click', function (evt) {
 
     console.log(newUserInfo)
     // TODO where to redirect
+    window.location.href = '../login/'
     // TODO save user info to LocalStorage
     console.log(`Register successfully!`)
 })

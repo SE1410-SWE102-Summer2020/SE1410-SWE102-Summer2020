@@ -32,10 +32,12 @@ function login(username: string, password: string) {
             // TODO redirect user
             console.log(`Login successfully with default user account!`)
             storage.setItem(`swe102.state.loggedin.username`, username)
+            window.location.href = '../course/'
             return
         } else {
             // TODO show error text wrong password
             console.log(`Wrong password!`)
+            alert(`Wrong password!`)
             return
         }
     }
@@ -45,6 +47,7 @@ function login(username: string, password: string) {
     if (userInfoInLocalStorage == null) {
         // TODO show error text user does not exit
         console.log(`User ${username} does not exit!`)
+        alert(`User ${username} does not exit!`)
         return
     }
 
@@ -61,12 +64,14 @@ loginButton.addEventListener('click', function (evt) {
     if (!username) {
         // TODO show error text username is empty
         console.log(`Username is empty!`)
+        alert(`Username is empty!`)
         return
     }
 
     if (!password) {
         // TODO show error text password is empty
         console.log(`Password is empty!`)
+        alert(`Password is empty!`)
         return
     }
 
