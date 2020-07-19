@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Profile - Brand</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>E-Learning Course</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="../mycourse.html"><i
+                                class="fas fa-tachometer-alt"></i>My Course<span></span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="../profile.html"><i
+                                class="fas fa-user"></i>My Profile</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="../login/"><i
+                                class="far fa-user-circle"></i><span>Login</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="../register.html"><i
+                                class="fas fa-user-circle"></i><span>Register</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0"
+                        id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3"
+                            id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <form
+                            class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text"
+                                    placeholder="Search for ...">
+                                <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i
+                                            class="fas fa-search"></i></button></div>
+                            </div>
+                        </form>
+                        <ul class="nav navbar-nav flex-nowrap ml-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link"
+                                    data-toggle="dropdown" aria-expanded="false" href="#"><i
+                                        class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" role="menu"
+                                    aria-labelledby="searchDropdown">
+                                    <form class="form-inline mr-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small"
+                                                type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0"
+                                                    type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link"
+                                        data-toggle="dropdown" aria-expanded="false" href="#"><span
+                                            class="badge badge-danger badge-counter">3+</span><i
+                                            class="fas fa-bell fa-fw"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
+                                        role="menu">
+                                        <h6 class="dropdown-header">alerts center</h6>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="mr-3">
+                                                <div class="bg-primary icon-circle"><i
+                                                        class="fas fa-file-alt text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 12, 2019</span>
+                                                <p>A new monthly report is ready to download!</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="mr-3">
+                                                <div class="bg-success icon-circle"><i
+                                                        class="fas fa-donate text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 7, 2019</span>
+                                                <p>$290.29 has been deposited into your account!</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="mr-3">
+                                                <div class="bg-warning icon-circle"><i
+                                                        class="fas fa-exclamation-triangle text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 2, 2019</span>
+                                                <p>Spending Alert: We've noticed unusually high spending for your
+                                                    account.</p>
+                                            </div>
+                                        </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All
+                                            Alerts</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link"
+                                        data-toggle="dropdown" aria-expanded="false" href="#"><i
+                                            class="fas fa-envelope fa-fw"></i><span
+                                            class="badge badge-danger badge-counter">7</span></a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
+                                        role="menu">
+                                        <h6 class="dropdown-header">alerts center</h6>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle"
+                                                    src="../assets/img/avatars/avatar4.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>Hi there! I am wondering if you can
+                                                        help me with a problem I've been having.</span></div>
+                                                <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle"
+                                                    src="../assets/img/avatars/avatar2.jpeg">
+                                                <div class="status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>I have the photos that you ordered last
+                                                        month!</span></div>
+                                                <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle"
+                                                    src="../assets/img/avatars/avatar3.jpeg">
+                                                <div class="bg-warning status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>Last month's report looks great, I am
+                                                        very happy with the progress so far, keep up the good
+                                                        work!</span></div>
+                                                <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle"
+                                                    src="../assets/img/avatars/avatar5.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>Am I a good boy? The reason I ask is
+                                                        because someone told me that people say this to all dogs, even
+                                                        if they aren't good...</span></div>
+                                                <p class="small text-gray-500 mb-0">Chicken the Dog · 2w</p>
+                                            </div>
+                                        </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All
+                                            Alerts</a>
+                                    </div>
+                                </div>
+                                <div class="shadow dropdown-list dropdown-menu dropdown-menu-right"
+                                    aria-labelledby="alertsDropdown"></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link"
+                                        data-toggle="dropdown" aria-expanded="false" href="#"><span
+                                            class="d-none d-lg-inline mr-2 text-gray-600 small">Cong Phu</span><img
+                                            class="border rounded-circle img-profile"
+                                            src="../assets/img/avatars/avatar1.jpeg"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu">
+                                        <a class="dropdown-item" role="presentation" href="#"><i
+                                                class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a><a
+                                            class="dropdown-item" role="presentation" href="#"><i
+                                                class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Settings</a>
+                                        <a class="dropdown-item" role="presentation" href="#"><i
+                                                class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Activity
+                                            log</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation"
+                                            href="#"><i
+                                                class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-4">My Profile</h3>
+                    <div class="row mb-3">
+                        <div class="col-lg-4">
+                            <div class="card mb-3">
+                                <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4"
+                                        src="data:image/jpeg;base64,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"
+                                        width="160" height="160">
+                                    <div class="mb-3"><button class="btn btn-primary btn-sm" type="button">Change
+                                            Photo</button></div>
+                                </div>
+                            </div>
+                            <div class="card shadow mb-4"></div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row mb-3 d-none">
+                                <div class="col">
+                                    <div class="card text-white bg-primary shadow">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    <p class="m-0">Peformance</p>
+                                                    <p class="m-0"><strong>65.2%</strong></p>
+                                                </div>
+                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                            </div>
+                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5%
+                                                since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-white bg-success shadow">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    <p class="m-0">Peformance</p>
+                                                    <p class="m-0"><strong>65.2%</strong></p>
+                                                </div>
+                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                            </div>
+                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5%
+                                                since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary m-0 font-weight-bold">User Settings</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="col">
+                                                        <div class="form-group"><label
+                                                                for="username"><strong>Username</strong></label><input
+                                                                class="form-control" type="text" placeholder="user.name"
+                                                                name="username"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group"><label for="email"><strong>Email
+                                                                    Address</strong></label><input class="form-control"
+                                                                type="email" placeholder="user@example.com"
+                                                                name="email"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col">
+                                                        <div class="form-group"><label for="first_name"><strong>Full
+                                                                    name</strong><br></label><input class="form-control"
+                                                                type="text" placeholder="John" name="first_name"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group"><label for="last_name"><strong>Phone
+                                                                    number</strong><br></label><input
+                                                                class="form-control" type="text"
+                                                                placeholder="0818612383" name="phoneNo"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group"><button class="btn btn-primary btn-sm"
+                                                        type="submit">Update Profile</button></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="card shadow">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary m-0 font-weight-bold">Contact Settings</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="form-group"><label
+                                                        for="address"><strong>Address</strong></label><input
+                                                        class="form-control" type="text" placeholder="Sunset Blvd, 38"
+                                                        name="address"></div>
+                                                <div class="form-row">
+                                                    <div class="col">
+                                                        <div class="form-group"><label
+                                                                for="city"><strong>City</strong></label><input
+                                                                class="form-control" type="text"
+                                                                placeholder="Los Angeles" name="city"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group"><label
+                                                                for="country"><strong>Country</strong></label><input
+                                                                class="form-control" type="text" placeholder="USA"
+                                                                name="country"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group"><button class="btn btn-primary btn-sm"
+                                                        type="submit">Update Profile</button></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow mb-3">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold">Delete Account Settings</p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group"><label
+                                                for="username"><strong>Username</strong></label><input
+                                                class="form-control" type="text" placeholder="user.name"
+                                                name="username"></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group"><label for="email"><strong>Enter your phone
+                                                    number</strong><br></label><input class="form-control" type="email"
+                                                placeholder="091234567" name="phoneNo"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group"><label for="last_name"><strong>Enter your email
+                                                    address</strong><br></label><input class="form-control" type="text"
+                                                placeholder="abc@yahoo.com" name="email"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Delete
+                                        Account</button></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold">Billing Settings</p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group"><label for="address"><strong>Payment method</strong></label>
+                                    <div class="alert alert-success" role="alert"><span><strong>You have not added any
+                                                payment method!</strong></span></div>
+                                </div>
+                                <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Add payment
+                                        method</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © Brand 2020</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>
