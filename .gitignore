@@ -3,3 +3,5 @@ nbproject
 *.zip
 tmp
 node_modules
+*.doc
+*.docx
