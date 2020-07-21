@@ -84,6 +84,10 @@ skip_extensions = [
     '.png',
     # weird files from Visual Studio
     '.suo',
+    '.eot',
+    '.ttf',
+    '.woff',
+    '.woff2',
 ]
 
 
